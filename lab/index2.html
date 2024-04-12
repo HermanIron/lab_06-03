@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1>LANZAR LOS DADOS
+  </h1>
+
+  Dos jugadores, PLAYER1 y PLAYER2, se enfrentan a tirar los dados.
+
+PLAYER1: Se genera un número del 1 al 6 cuando el usuario aprieta el botón "lanzar dado". Se muestra el resultado en pantalla con innerHTML.
+
+PLAYER2: juega su turno
+
+Al final se dice quién de los dos  ha ganado ( o si ha empatado)
+
+Crear una página con presentación CSS, según tu tiempo e imaginación
+
+    <div class="cont">
+      <h1>Lanzar Dados</h1>
+      <div id="player1">
+        <h2>PLAYER1</h2>
+        <p>Resultado: <span id="resultadoPlayer1">-</span></p>
+        <button onclick="lanzarDado('Player1')">Lanzar dado</button>
+      </div>
+      <div id="player2">
+        <h2>PLAYER2</h2>
+        <p>Resultado: <span id="resultadoPlayer2">-</span></p>
+        <button onclick="lanzarDado('Player2')">Lanzar dado</button>
+      </div>
+      <div id="ganador">
+        <h2>Ganador</h2>
+        <p id="mensajeGanador">-</p>
+      </div>
+    </div>
+
+
+  <script src="main2.js"></script>
+</body>
+</html>
